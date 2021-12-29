@@ -11,11 +11,11 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Navbar  className="mb-3"/>
-        <hr className="m-3"/>
-        <Aboutme className="mb-3" />
-        <Download /><br/><br/><br/>
-        <Skills /><br/><br/><br/>
+        <Navbar />
+        <hr className="mb-3"/>
+        <Aboutme  />
+        <Download />
+        <Skills />
         <Portfolio  />
         <Footer  />
       </>
